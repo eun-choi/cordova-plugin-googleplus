@@ -30,9 +30,10 @@
   <!-- android -->
   <platform name="android">
 
-	<preference name="PLAY_SERVICES_VERSION" default="15.0.1"/>
+	<preference name="PLAY_SERVICES_VERSION" default="18.0.0"/>
+  <preference name="PLAY_SERVICES_IDENTITY" default="17.0.0"/>
     <framework src="com.google.android.gms:play-services-auth:$PLAY_SERVICES_VERSION" />
-    <framework src="com.google.android.gms:play-services-identity:$PLAY_SERVICES_VERSION" />
+    <framework src="com.google.android.gms:play-services-identity:$PLAY_SERVICES_IDENTITY" />
 
     <config-file target="res/xml/config.xml" parent="/*">
       <feature name="GooglePlus">
@@ -107,8 +108,8 @@
         <source url="https://cdn.cocoapods.org/"/>
       </config>
       <pods use-frameworks="true">
-        <pod name="GoogleSignIn" spec="~> 5.0.2"/>
-        <pod name="GoogleUtilities" spec="~> 6.6"/>
+        <pod name="GoogleSignIn" spec="5.0.2"/>
+        <pod name="GoogleUtilities" spec="6.7.1"/>
       </pods>
     </podspec>
 
