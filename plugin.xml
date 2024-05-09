@@ -104,14 +104,14 @@
 
     <!-- Google frameworks -->
     <preference name="GOOGLE_SIGN_IN_VERSION" default="6.2.4"/>
-    <preference name="GOOGLE_UTILITIES_VERSION" default="7.12.0"/>
+    <preference name="GOOGLE_UTILITIES_VERSION" default="7.13.2"/>
     <podspec>
       <config>
         <source url="https://cdn.cocoapods.org/"/>
       </config>
       <pods use-frameworks="true">
         <pod name="GoogleSignIn" spec="6.2.4"/>
-        <pod name="GoogleUtilities" spec="7.12.0"/>
+        <pod name="GoogleUtilities" spec="7.13.2"/>
       </pods>
     </podspec>
 
